@@ -1,0 +1,21 @@
+Input and Output:
+
+The program asks for the name of the input file to read and the output file to save the modified content.
+
+File Reading:
+
+The program uses open(input_filename, 'r') to read the content of the specified file.
+
+If the file is not found, a FileNotFoundError will be caught and an error message is printed.
+
+Content Modification:
+
+The content is converted to uppercase as an example of modification. You can change this to any transformation you prefer.
+
+File Writing:
+
+After modification, the content is written to a new file using open(output_filename, 'w').
+
+Error Handling:
+
+The program handles two types of errors: FileNotFoundError for non-existent files and IOError for issues while reading or writing the file.
